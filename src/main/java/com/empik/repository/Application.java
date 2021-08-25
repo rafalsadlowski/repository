@@ -22,7 +22,7 @@ public class Application {
   public static void main(String[] args) {
     TimeZone.setDefault(TimeZone.getTimeZone("Europe/Warsaw"));
     SpringApplication.run(Application.class, args);
-    log.info("Task Application Start");
+    log.info("Repository Application Start");
   }
 
   @Bean

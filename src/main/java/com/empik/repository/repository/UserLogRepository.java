@@ -1,4 +1,4 @@
-package com.empik.repository.data;
+package com.empik.repository.repository;
 
 import org.springframework.data.repository.CrudRepository;
 

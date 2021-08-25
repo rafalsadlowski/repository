@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import com.empik.repository.bean.UserLogEntity;
-import com.empik.repository.data.UserLogRepository;
 import com.empik.repository.dto.CalculationsBean;
 import com.empik.repository.dto.GithubRepositoryBean;
 import com.empik.repository.exception.CalculationException;
 import com.empik.repository.exception.GithubUserException;
+import com.empik.repository.repository.UserLogRepository;
 
 @SpringBootTest
 public class UserLogServiceTest {

@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.empik.repository.bean.UserLogEntity;
-import com.empik.repository.data.UserLogRepository;
 import com.empik.repository.dto.CalculationsBean;
 import com.empik.repository.dto.GithubRepositoryBean;
 import com.empik.repository.exception.CalculationException;
 import com.empik.repository.exception.GithubUserException;
+import com.empik.repository.repository.UserLogRepository;
 
 @Service
 public class UserLogService {
