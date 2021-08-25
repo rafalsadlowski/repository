@@ -125,7 +125,7 @@ public class UserLogService {
       throw new CalculationException("CalculateViews div by 0");
     }
     // calculate 
-    Float calculations = (float)(6 / githubRepositoryBean.getFollowers() * (2 + githubRepositoryBean.getPublicRepos()));
+    Float calculations = (float)6 / githubRepositoryBean.getFollowers() * (2 + githubRepositoryBean.getPublicRepos());
     return calculations;
   }
 
