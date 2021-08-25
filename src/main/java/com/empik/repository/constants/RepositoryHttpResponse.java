@@ -1,4 +1,4 @@
-package com.empik.repository.constatns;
+package com.empik.repository.constants;
 
 public class RepositoryHttpResponse {
 

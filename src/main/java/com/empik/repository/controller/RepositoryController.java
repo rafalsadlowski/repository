@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.empik.repository.constatns.RepositoryHttpResponse;
+import com.empik.repository.constants.RepositoryHttpResponse;
 import com.empik.repository.dto.CalculationsBean;
 import com.empik.repository.dto.GithubRepositoryBean;
 import com.empik.repository.exception.CalculationException;
