@@ -1,13 +1,39 @@
 # Repository
 Zadanie rekrutacyjne backend - "repository" zostało zrealizowane w technologiin Spring Boot v2.5, Java v11
 
-Szybki start przy pomocy Maven:
+Maven build:
 
 mvn clean install
 
 mvn spring-boot:run
 
 
+HTTP API 
+--
+ 
+GET /users/{login}
+
+przykład:
+http://localhost:8080/users/octocat
+
+API zgodne z https://api.github.com/users/{login} zawiera dodatkowy parametr calculations
+
+```
+{
+"id": "...",
+"login": "...",
+"name": "…",
+"type": "...",
+"avatarUrl": „”,
+"createdAt": "..."
+"calculations": "..."
+}
+
+```
+
+calculations - wynik działania 6 / liczba_followers * (2 + liczba_public_repos).
+
+---
 
 # SWAGGER - REST CLIENT GUI
 Dokumentacja API znajduje się pod adresem:
